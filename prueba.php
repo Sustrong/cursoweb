@@ -13,8 +13,8 @@
         <br>
         <input type="radio" name="sexo" value="mujer" id="mujer">
         <label for="mujer">Mujer</label>
-        <label for="hombre">Hombre</label>
         <input type="radio" name="sexo" value="hombre" id="hombre">
+        <label for="hombre">Hombre</label>
         <br>
         <select name="fecha" id="">
             <option value="2025">2025</option> <!-- value lo recibimos con PHP -->
@@ -22,8 +22,8 @@
             <option value="2027">2027</option>
         </select>
         <br>
-        <input type="checkbox" name="terminos" id="terminos" value='ok'>
-        <label for="terminos">Aceptar términos</label>
+        <input type="checkbox" name="terminos" id="checkterms" value='ok'>
+        <label for="checkterms">Aceptar términos</label>
         <br>
         <input type="submit" value="Enviar">
     </form>
